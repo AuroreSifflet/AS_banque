@@ -1,5 +1,5 @@
-/* import React, { createContext } from "react";
-import dataCard from "../js/data.json"; */
+import React, { createContext } from "react";
+import dataCard from "../js/data.json";
 // que'est ce qu'on veut que notre contexte porte comme informations
 /* export default createContext({
     userSelected: ,

@@ -9,3 +9,10 @@ export type dataCardType = {
     expences: expenses[];
 
    };
+
+/* export type UserSchemaRealm = {
+
+ _id: number;
+ name: string;
+ 
+}; */

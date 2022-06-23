@@ -38,8 +38,6 @@ const RevenuValidationSchema = yup.object().shape({
 
 const RevenuScreen = () => {
 
-
-
   return (
     <Formik
     initialValues={{ nom: '', prenom: '', montant: '', date: '', categorie: '', commentaire: '', }}
@@ -49,6 +47,7 @@ const RevenuScreen = () => {
   >
     {({ handleChange, handleBlur, handleSubmit, values, touched, errors, isValid }) => (
      <View style={styles.container}>
+      
      <ScrollView showsVerticalScrollIndicator={false} style={styles.scroll}>
         <Text style={styles.textLabel}>Bénéficiaire</Text>
         <TextInput
